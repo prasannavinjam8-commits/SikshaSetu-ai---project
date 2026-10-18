@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix SikshaSetu-ai",
+  "description": "An AI-enabled family decision-support platform for engineering education, bridging the gap between student ambitions and family constraints.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

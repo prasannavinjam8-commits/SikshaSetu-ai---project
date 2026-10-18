@@ -1,0 +1,125 @@
+@import "tailwindcss";
+
+/* ===== Corporate Minimalist palette =====
+   Deep Slate #1E293B (headers / dark sections)
+   Steel Blue #476A8A (buttons, active icons, accents)
+   Every indigo / purple / teal / emerald / blue utility used in the app
+   is re-pointed to this steel-blue scale, so no multi-colour accents remain. */
+@theme {
+  --color-steel-50:  #F4F7FA;
+  --color-steel-100: #E6EDF3;
+  --color-steel-200: #CFDBE6;
+  --color-steel-300: #A9BDD0;
+  --color-steel-400: #7B97B2;
+  --color-steel-500: #5C7F9E;
+  --color-steel-600: #476A8A;
+  --color-steel-700: #3A5775;
+  --color-steel-800: #2B4058;
+  --color-steel-900: #1E293B;
+  --color-steel-950: #0F172A;
+}
+@theme {
+  --color-indigo-50: #F4F7FA;
+  --color-indigo-100: #E6EDF3;
+  --color-indigo-200: #CFDBE6;
+  --color-indigo-300: #A9BDD0;
+  --color-indigo-400: #7B97B2;
+  --color-indigo-500: #5C7F9E;
+  --color-indigo-600: #476A8A;
+  --color-indigo-700: #3A5775;
+  --color-indigo-800: #2B4058;
+  --color-indigo-900: #1E293B;
+  --color-indigo-950: #0F172A;
+}
+@theme {
+  --color-purple-50: #F4F7FA;
+  --color-purple-100: #E6EDF3;
+  --color-purple-200: #CFDBE6;
+  --color-purple-300: #A9BDD0;
+  --color-purple-400: #7B97B2;
+  --color-purple-500: #5C7F9E;
+  --color-purple-600: #476A8A;
+  --color-purple-700: #3A5775;
+  --color-purple-800: #2B4058;
+  --color-purple-900: #1E293B;
+  --color-purple-950: #0F172A;
+}
+@theme {
+  --color-violet-50: #F4F7FA;
+  --color-violet-100: #E6EDF3;
+  --color-violet-200: #CFDBE6;
+  --color-violet-300: #A9BDD0;
+  --color-violet-400: #7B97B2;
+  --color-violet-500: #5C7F9E;
+  --color-violet-600: #476A8A;
+  --color-violet-700: #3A5775;
+  --color-violet-800: #2B4058;
+  --color-violet-900: #1E293B;
+  --color-violet-950: #0F172A;
+}
+@theme {
+  --color-teal-50: #F4F7FA;
+  --color-teal-100: #E6EDF3;
+  --color-teal-200: #CFDBE6;
+  --color-teal-300: #A9BDD0;
+  --color-teal-400: #7B97B2;
+  --color-teal-500: #5C7F9E;
+  --color-teal-600: #476A8A;
+  --color-teal-700: #3A5775;
+  --color-teal-800: #2B4058;
+  --color-teal-900: #1E293B;
+  --color-teal-950: #0F172A;
+}
+@theme {
+  --color-emerald-50: #F4F7FA;
+  --color-emerald-100: #E6EDF3;
+  --color-emerald-200: #CFDBE6;
+  --color-emerald-300: #A9BDD0;
+  --color-emerald-400: #7B97B2;
+  --color-emerald-500: #5C7F9E;
+  --color-emerald-600: #476A8A;
+  --color-emerald-700: #3A5775;
+  --color-emerald-800: #2B4058;
+  --color-emerald-900: #1E293B;
+  --color-emerald-950: #0F172A;
+}
+@theme {
+  --color-blue-50: #F4F7FA;
+  --color-blue-100: #E6EDF3;
+  --color-blue-200: #CFDBE6;
+  --color-blue-300: #A9BDD0;
+  --color-blue-400: #7B97B2;
+  --color-blue-500: #5C7F9E;
+  --color-blue-600: #476A8A;
+  --color-blue-700: #3A5775;
+  --color-blue-800: #2B4058;
+  --color-blue-900: #1E293B;
+  --color-blue-950: #0F172A;
+}
+
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', 'Noto Sans Telugu', 'Noto Sans Devanagari', -apple-system, BlinkMacSystemFont, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background-color: #F1F5F9;
+    -moz-osx-font-smoothing: grayscale;
+    color: #1E293B;
+  }
+}
+
+/* Custom scrollbar for mobile feel */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.35);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.6);
+}
